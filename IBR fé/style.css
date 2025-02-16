@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d7d3c7;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+}
+
+h2{
+    color: white;
+    font-size: 5vh;
+    margin-left: 0.5rem;
+}
+
+.bg-light, .btn-primary {
+    background-color: #245c9c !important;
+}
+
+header > div > img {
+    height: 15vh;
+    align-items: start;
+}
+
+.nav-item , .nav-link {
+    color: white !important; /* O !important garante que essa regra tenha precedência sobre outras */
+    padding: 0.55rem;
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.btn {
+   border-width: 0.20em; 
+   border-radius: 1.35em;
+}
+
+.transition {
+    transition: transform 0.3s ease; /* Define a transição de transformação */
+}
+  
+.transition:hover {
+    transform: scale(1.10); /* Aumenta a escala em 5% ao passar o mouse */
+}
+
+section > img {
+    width: 100%;  
+}
+
+.text-light {
+    color: #245c9c !important;
+    font-weight: bold; 
+}
+
+#carrossel {
+    display: flex;
+    overflow: auto;
+}
+
+#carrossel img {
+    padding: 0.15rem;
+    height: 57vh;
+    border-radius: 0.8rem;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    color: #5c8cac;
+}
