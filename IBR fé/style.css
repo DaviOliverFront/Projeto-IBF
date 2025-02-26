@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: auto;
+}
+
 body{
     background-color: #d7d3c7;
     font-family: "Inter", serif;
@@ -15,6 +19,7 @@ body{
 h2{
     color: white;
     font-size: 5vh;
+    font-weight: bold;
     margin-left: 0.5rem;
 }
 
@@ -44,7 +49,7 @@ header > div > img {
 }
   
 .transition:hover {
-    transform: scale(1.10); /* Aumenta a escala em 5% ao passar o mouse */
+    transform: scale(1.05); /* Aumenta a escala em 5% ao passar o mouse */
 }
 
 section > img {
@@ -62,7 +67,7 @@ section > img {
 }
 
 #carrossel img {
-    padding: 0.15rem;
+    padding: 0.30rem;
     height: 57vh;
     border-radius: 0.8rem;
 }
