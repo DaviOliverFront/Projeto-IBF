@@ -20,16 +20,16 @@ h2{
     color: rgb(255, 255, 255);
     font-size: 5vh;
     font-weight: bold;
-    margin-left: 0.5rem;
-    margin-top: 1.5rem;
-    
+    margin-top: 3.5rem;
+    margin-bottom: 1.75rem;
+    text-align: center; 
 }
 
 .bg-light, .btn-primary {
     background-color: #245c9c !important;
 }
 
-header > div > img {
+header > div > a > img {
     height: 15vh;
     align-items: start;
 }
@@ -39,6 +39,7 @@ header > div > img {
     padding: 0.55rem;
     font-size: 2.5vh;
     font-weight: bold;
+    margin-left: 0.75rem;
 }
 
 .btn {
@@ -81,7 +82,16 @@ figcaption {
     color: #5c8cac;
 }
 
+#quemsomos{
+    margin-top: 3.5rem;
+}
+
 #sub-titulo{
     color: white;
     font-size: 2.5vh;
+}
+
+section > article > div > img {
+    width: 100%;
+    border-radius: 0.8rem;
 }
