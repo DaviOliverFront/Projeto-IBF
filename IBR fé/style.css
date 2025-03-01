@@ -16,7 +16,7 @@ body{
     font-optical-sizing: auto;
 }
 
-h2{
+#h2{
     color: rgb(255, 255, 255);
     font-size: 5vh;
     font-weight: bold;
@@ -47,11 +47,11 @@ header > div > a > img {
    border-radius: 1.35em;
 }
 
-.transition {
+.transition , .btn-login{
     transition: transform 0.3s ease; /* Define a transição de transformação */
 }
   
-.transition:hover {
+.transition:hover , .btn-login:hover{
     transform: scale(1.05); /* Aumenta a escala em 5% ao passar o mouse */
 }
 
@@ -111,5 +111,74 @@ section > article > div > img {
 .top p {
     margin-top: 8rem;
     font-size: 3.5vh;
+    font-weight: 600;
 }
 
+
+#body-login{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    background-color: #245c9c;
+    display: grid;
+    text-align: center;
+    align-items: center; /* Centraliza horizontal e verticalmente */
+    height: 100vh; /* Ocupa toda a altura da tela (opcional) */
+    margin: 0 auto; /* Remove margens padrão */
+}
+
+#h1-adm{
+    font-size: 12vh;
+}
+
+#h2-adm{
+    font-size: 3vh;
+    margin-right: 12em;
+    margin-top: 2vh;
+}
+
+#h1-adm,  #h2-adm{
+    color: #ffffff;
+}
+
+#login-login{
+   margin: 0 auto;
+}
+
+input {
+    font-size: 2vh;
+    height: 6vh;
+    border: none;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding-left: 0.75rem;
+}
+::placeholder {
+    font-size: 3vh;
+    margin-left: 0.75rem;
+}
+
+input, .login{
+    width: 45vh;
+}
+
+.btn-login {
+    font-weight: bold;
+    background-color: #d7d3c7;
+    color: #245c9c;
+    font-size: 4vh;
+    margin-top: 2rem;
+    font-family: "Inter", serif;
+}
+
+.formulario {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    background-color: #5c8cac;
+    border-radius: 2rem;
+    height: 52vh;
+    width: 100vh;
+}
