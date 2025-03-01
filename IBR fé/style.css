@@ -96,18 +96,20 @@ section > article > div > img {
     border-radius: 0.8rem;
 }
 
-.top1 {
+.top {
     display: flex;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
+    gap: 1rem;
 }
 
-.top1 img {
+.top img {
     height: 40vh;
     width: 40vh;
 }
 
-.top1 p {
+.top p {
     margin-top: 8rem;
-    font-size: 3vh;
+    font-size: 3.5vh;
 }
+
